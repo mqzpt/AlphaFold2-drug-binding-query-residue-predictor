@@ -500,7 +500,7 @@ ann = tf.keras.models.Sequential()
 
 # Add the input layer and first hidden layer
 
-ann.add(tf.keras.layers.Dense(units=100, activation="relu",
+ann.add(tf.keras.layers.Dense(units=100, activation="sigmoid",
         input_shape=parameters_train[0].shape))
 ann.add(tf.keras.layers.Dense(units=100, activation="relu"))
 ann.add(tf.keras.layers.Dense(units=25, activation=None))
@@ -511,7 +511,7 @@ ann.add(tf.keras.layers.Dense(units=1, activation='sigmoid'))
 
 ann.compile(optimizer='rmsprop', loss='binary_crossentropy',
             metrics=['accuracy'])
-ann.fit(parameters_train, label_train, batch_size=64, epochs=5)
+ann.fit(parameters_train, label_train, batch_size=64, epochs=8)
 
 # evaluate the model on the test set
 
