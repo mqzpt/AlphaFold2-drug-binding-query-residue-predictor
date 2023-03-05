@@ -477,7 +477,6 @@ xgb.fit(X_train, y_train)
 
 y_test_pred = xgb.predict(X_test[without_categorical_columns])
 
-
 fpr, tpr, thresholds = metrics.roc_curve(y_test, y_test_pred, pos_label=1)
 auc_roc = metrics.auc(fpr, tpr)
 
