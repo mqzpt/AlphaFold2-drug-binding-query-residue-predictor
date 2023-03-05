@@ -7,7 +7,6 @@ from keras.models import load_model
 
 from sklearn.metrics import precision_score, recall_score
 from sklearn.utils import resample
-
 data = pd.read_csv("af2_dataset_testset_unlabeled.csv")
 
 # Organizing the data (removing redundant features)
