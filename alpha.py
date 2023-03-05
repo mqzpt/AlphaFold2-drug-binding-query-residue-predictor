@@ -470,6 +470,7 @@ parameters = np.hstack((x1_label1, x1_label2, x1_label3, x1_label4, x1_label5, x
 # Removes junk data
 
 # while i < j:
+#
 #     if parameters[i][6] == 0:
 #         parameters = np.delete(parameters, i, 0)
 #         i -= 1
