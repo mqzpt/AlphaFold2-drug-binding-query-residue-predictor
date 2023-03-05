@@ -1,3 +1,5 @@
+# Ignoring the environment and unneccesary files
+
 /.idea
 /env
 /.ipynb_checkpoints
