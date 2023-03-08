@@ -1,7 +1,7 @@
 # AlphaFold2-drug-binding-query-residue-predictor-neural-network
 Implemented a neural network using Python, Pandas, NumPy, and Tensorflow, to predict 'drug binding' or 'non-drug binding' for any query residue on an AlphaFold2 predicted protein model. 
 
-*This was made for a data science challenge held by Cyclica, an AI drug discovery based in my hometown Toronto*
+*This was made for a data science challenge held by *Cyclica*, an AI drug discovery based in my hometown Toronto*
 
 **For those who wander:**
 
