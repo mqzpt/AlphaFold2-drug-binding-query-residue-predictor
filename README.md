@@ -10,3 +10,5 @@ A neural network is an approach to machine learning, inspired by how neurons wor
 **How I am going to improve this model:**
 
 I am currently working on a XGB approach with a goal of at least 90% accuracy. This should fair more effectively than a basic neural network approach given the scale of the dataset, though we may need to worry about overfitting, since the dataset is a bit sparse and unstructed at times. I am working with numpy to find ways to clean the data as best as possible, as well as trying to gain a better understanding of the chemistry behind the data for improved feature selection to try and avoid this issue. This approach will also require a deeper level of mathematics and critical thinking as I won't be relying on Tensorflow to take care of algorithms.
+
+To test this model, make sure your TF environment is configured correctly. For those using an M1/M2 mac, you can optimize performance by taking advantage of the GPU with Metal. Here is a great tutorial I found for the env setup: https://www.youtube.com/watch?v=2C-B1VFMq58
